@@ -1,0 +1,288 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px
+}
+
+/*---------------NAVIGATION----------------*/
+.nav-title {
+	font-size: 2rem;
+	font-weight: 900;
+	color: #363166;
+}
+
+.nav-title a:visited {
+	color: #363166;
+}
+
+.nav-title a:hover{
+		color: #ff6682;
+		cursor: pointer;
+		transition: color 0.5s, font-size 0.5s;
+}
+
+li {
+	list-style-type: none;
+	margin-right: 10px;
+	font-size: 1.5rem;
+}
+
+.nav {
+	display: flex;
+	background-color: #ffe5c7;
+	justify-content: space-between;
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	height: 70px;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #363166;
+	text-transform: uppercase;
+	transition: 0.3s;
+	font-weight: 700;
+}
+
+.nav-home {
+	display: flex;
+	align-items: center;
+	background-color: #ffe5c7;
+	justify-content: space-between;
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	height: 70px;
+}
+
+.nav-links a:hover {
+	background-color: #ff6682;
+	color: #363166;
+	cursor: pointer;
+	transition: color 0.5s, font-size 0.5s;
+	font-size: 32px;
+}
+
+.nav-links a:visited {
+	color: #363166;
+}
+
+/*---------------HEADER/MAIN----------------*/
+
+main {
+	display: flex;
+	width: 100%;
+	height: 650px;
+}
+
+main img {
+	width: 100%;
+	height: 650px;
+	object-fit: cover;
+}
+
+/*---------------ABOUT----------------*/
+
+.about-me {
+	background-color: #713dff;
+	margin: 0 auto;
+}
+
+.about-me div {
+	display: flex;
+	align-items: center;
+	height: 15rem;
+	font-weight: 900;
+	width: 100%;
+	padding: 0 20px;
+}
+
+.about-me a {
+	color: #fff;
+	text-decoration: none;
+	transition: 0.3s;
+	font-style: italic;
+}
+
+.about-me a:hover {
+	color: #ff6682;
+}
+
+.container {
+	max-width: 1200px;
+	height: 20rem;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px
+}
+
+p {
+	color: #363166;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 4rem;
+	word-spacing: 1px;
+	text-align: justify;
+}
+
+.flip {
+	transform: rotateX(360deg);
+	transition: transform .6s;
+}
+
+.intro p{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 900;
+	font-size: 2.5rem;
+	overflow: auto;
+}
+
+p.sub-heading {
+	color: #fff;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+section.bio {
+	background-color: #fff;
+	height: 20rem;
+	padding: 20px;
+}
+
+span {
+	display: inline-block;
+}
+
+/*---------------PORTFOLIO----------------*/
+
+a {
+	text-decoration: none;
+}
+
+a h2:hover {
+	background-color: #ff6682;
+	cursor: pointer;
+	transition: color 0.5s, font-size 0.5s;
+	color: #363166;
+	font-size: 1.6rem;
+}
+
+section img:hover {
+	opacity: 0.7;
+}
+
+section article p {
+	display: inline;
+	word-spacing: 2px;
+	line-height: 2rem;
+	font-weight: 900;
+	color: #363166;
+	font-size: 15px;
+	font-style: italic;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+}
+
+img {
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.row {
+	background-color: #61e8e1;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.row article {
+	padding: 4%;
+	width: 33%;
+}
+
+/*---------------FOOTER----------------*/
+
+div.contact-me {
+	padding-right: 200px;
+}
+
+footer {
+	display: flex;
+	background-color: #ff6682;
+	padding: 45px;
+	height: 150px;
+	font-size: 20px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+	transition: 0.3s;
+	font-weight: 400;
+}
+
+footer a:hover{
+	background-color: #363166;
+	cursor: pointer;
+	transition: color 0.5s, font-size 0.5s;
+	font-size: 22px;
+}
+
+footer p {
+	color: #fff;
+	width: 60px;
+}
+
+/*---------------RESPONSIVE----------------*/
+
+@media screen and (max-width: 1000px){
+.row article {
+	width: 50%;
+}
+
+
+.right-img {
+	  object-fit: cover;
+	  object-position: 100% -50%;
+}
+
+h1 a {
+	font-size: 30px;
+}
+
+li {
+	font-size: 20px;
+}
+
+footer {
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	height: 100px;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+	.row article {
+		width: 100%;
+	}
+}
+
