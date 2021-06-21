@@ -3,7 +3,7 @@ import about from './about.png'
 import portfolio from './portfolio.jpg'
 import contact from './contact.jpg'
 
-const Main = () => {
+const Body = () => {
     return (
         <div className="main">
             <div>
@@ -19,4 +19,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default Body
