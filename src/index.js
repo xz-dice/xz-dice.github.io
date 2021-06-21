@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Route} from "react-router-dom";
+import {Route, BrowserRouter as Router} from "react-router-dom";
 import './index.css';
 import NavigationBar from "./sections/NavigationBar"
+import Body from "./sections/Body";
+import About from "./sections/About/About"
 
 // import reportWebVitals from './reportWebVitals';
-import Main from "./sections/Main";
 
 ReactDOM.render(
   <React.StrictMode>
-      <Route>
+      <Router>
           <NavigationBar/>
-          <Main/>
-      </Route>
+          <Body/>
+          <About/>
+      </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

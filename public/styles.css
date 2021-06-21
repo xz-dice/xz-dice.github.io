@@ -95,13 +95,8 @@ li {
 .about-me {
 	background-color: #713dff;
 	margin: 0 auto;
-}
-
-.about-me div {
+	height: auto;
 	display: flex;
-	align-items: center;
-	height: 15rem;
-	font-weight: 900;
 	width: 100%;
 	padding: 0 20px;
 }
@@ -117,6 +112,10 @@ li {
 	color: #ff6682;
 }
 
+.about-me div {
+	justify-content: space-evenly;
+}
+
 .container {
 	max-width: 1200px;
 	height: 20rem;
@@ -125,32 +124,24 @@ li {
 	padding: 0 20px
 }
 
+.flip {
+	transform: rotateX(360deg);
+	transition: transform .7s;
+}
+.intro {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 900;
+	font-size: 2.5rem;
+}
+
 p {
 	color: #363166;
 	font-weight: 600;
 	font-size: 1rem;
 	line-height: 4rem;
 	word-spacing: 1px;
-	text-align: justify;
-}
-
-.flip {
-	transform: rotateX(360deg);
-	transition: transform .6s;
-}
-
-.intro p{
-	text-transform: uppercase;
-	color: #fff;
-	font-weight: 900;
-	font-size: 2.5rem;
-	overflow: auto;
-}
-
-p.sub-heading {
-	color: #fff;
-	font-weight: 400;
-	font-size: 1rem;
+	width: 100%;
 }
 
 section.bio {
@@ -159,9 +150,18 @@ section.bio {
 	padding: 20px;
 }
 
+
+div {
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+}
+
 span {
 	display: inline-block;
 }
+
+
 
 /*---------------PORTFOLIO----------------*/
 
