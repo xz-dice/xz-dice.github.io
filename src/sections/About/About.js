@@ -8,6 +8,8 @@ const About = () => {
                     </p>
                     <p>I have just graduated from iO Academy, <a href="https://io-academy.uk/io-academy-ranked-in-the-top-10-best-coding-bootcamps-in-the-world/#:~:text=iO%20Academy%20(previously%20Mayden%20Academy,independent%20trainer%20ratings%20website%20SwitchUp.">rated 6th best coding bootcamp in the world</a>, and am now seeking entry and junior level developer roles, with a leaning towards front-end opportunities. </p>
                 </div>
+            <div className="container">
+            </div>
         </section>
     )
 }

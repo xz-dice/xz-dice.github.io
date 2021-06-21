@@ -5,6 +5,8 @@ import './index.css';
 import NavigationBar from "./sections/NavigationBar"
 import Body from "./sections/Body";
 import About from "./sections/About/About"
+import Headline from "./sections/Headline/Headline";
+import Portfolio from "./sections/Portfolio/Portfolio";
 
 // import reportWebVitals from './reportWebVitals';
 
@@ -13,7 +15,9 @@ ReactDOM.render(
       <Router>
           <NavigationBar/>
           <Body/>
+          <Headline/>
           <About/>
+          {/*<Portfolio/>*/}
       </Router>
   </React.StrictMode>,
   document.getElementById('root')
