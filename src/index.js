@@ -2,21 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Route, BrowserRouter as Router} from "react-router-dom";
 import './index.css';
-import NavigationBar from "./sections/NavigationBar"
-import Body from "./sections/Body";
 import About from "./sections/About/About"
-import Headline from "./sections/Headline/Headline";
-import Portfolio from "./sections/Portfolio/Portfolio";
+import Home from "./sections/Home";
 
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
       <Router>
-          <NavigationBar/>
-          <Body/>
-          <Headline/>
-          <About/>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/about" component={About}/>
           {/*<Portfolio/>*/}
       </Router>
   </React.StrictMode>,

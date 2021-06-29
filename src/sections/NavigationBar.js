@@ -7,7 +7,7 @@ const NavigationBar = () => {
             <div className="nav-home">
                 <div>
                         <h1 className="nav-title">
-                            <Link to="/home">XANDICE ARMAH</Link>
+                            <Link to="/">XANDICE ARMAH</Link>
                         </h1>
                     </div>
                     <div className="nav-links">

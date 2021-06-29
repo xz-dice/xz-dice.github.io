@@ -1,7 +1,15 @@
 import React from 'react'
+import NavigationBar from "../NavigationBar";
+import Body from "../Body";
+import Headline from "../Headline/Headline";
+import {BrowserRouter as Router} from "react-router-dom";
 
 const About = () => {
     return (
+        <div>
+            <NavigationBar/>
+            <Body/>
+            <Headline/>
         <section className="bio">
                 <div className="container">
                     <p>Over the past 6 years I've cultivated a successful career as a DJ, having played at Glastonbury Festival, Primavera Sound, and Brighton Pride. Along the way, I picked up a multitude of transferable skills. I love fixing things and troubleshooting and wherever I go, on the road or in the office, I have always been the unofficial 'resident tech support' person, so learning full-stack web development felt like a natural progression.
@@ -11,6 +19,7 @@ const About = () => {
             <div className="container">
             </div>
         </section>
+        </div>
     )
 }
 
