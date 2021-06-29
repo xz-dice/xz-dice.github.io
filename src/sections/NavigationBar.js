@@ -10,11 +10,11 @@ const NavigationBar = () => {
                             <Link to="/">XANDICE ARMAH</Link>
                         </h1>
                     </div>
-                    <div className="nav-links">
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/portfolio">Portfolio</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                    </div>
+                    {/*<div className="nav-links">*/}
+                    {/*    <li><Link to="/about">About</Link></li>*/}
+                    {/*    <li><Link to="/portfolio">Portfolio</Link></li>*/}
+                    {/*    <li><Link to="/contact">Contact</Link></li>*/}
+                    {/*</div>*/}
             </div>
     )
 }

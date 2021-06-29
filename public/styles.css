@@ -7,7 +7,7 @@ html, body {
 	padding: 0;
 	overflow-x: hidden;
 	font-family: 'Work Sans', sans-serif;
-	font-size: 20px
+	font-size: 20px;
 }
 
 /*---------------NAVIGATION----------------*/
@@ -69,7 +69,7 @@ li {
 	color: #363166;
 	cursor: pointer;
 	transition: color 0.5s, font-size 0.5s;
-	font-size: 32px;
+	font-size: 1.6rem;
 }
 
 .nav-links a:visited {
@@ -119,9 +119,9 @@ li {
 .container {
 	max-width: 1200px;
 	height: auto;
-	width: 100%;
-	margin: 0 auto;
-	padding: 0 20px
+	padding: 0 20px;
+	background-color: #fff;
+	text-align: justify;
 }
 
 .flip {
@@ -142,7 +142,6 @@ p {
 	font-size: 1rem;
 	line-height: 2rem;
 	word-spacing: 1px;
-	width: 100%;
 }
 
 span {
@@ -169,26 +168,30 @@ section article p {
 	line-height: 2rem;
 	font-weight: 900;
 	color: #363166;
-	font-size: 15px;
-	font-style: italic;
+	font-size: .75rem;
+}
+
+
+article {
+	width: auto;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 1.5rem;
 	font-weight: 600;
 	text-align: center;
-	color: #fff;
+	color: #363166;
 }
 
 img {
-	height: 200px;
+	height: 250px;
 	display: block;
 	margin: 0 auto;
 }
 
 
 .row {
-	background-color: #61e8e1;
+	background-color: #ffe5c7;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -199,10 +202,16 @@ img {
 	width: 33%;
 }
 
+article {
+	background-color: #ffe5c7;
+	text-align: justify;
+}
+
 /*---------------FOOTER----------------*/
 
 div.contact-me {
 	padding-right: 200px;
+	background-color: #61e8e1;
 }
 
 footer {
@@ -210,7 +219,6 @@ footer {
 	background-color: #ff6682;
 	padding: 45px;
 	height: 150px;
-	font-size: 20px;
 }
 
 footer a {
@@ -224,7 +232,7 @@ footer a:hover{
 	background-color: #363166;
 	cursor: pointer;
 	transition: color 0.5s, font-size 0.5s;
-	font-size: 22px;
+	font-size: 1.1rem;
 }
 
 footer p {
@@ -246,17 +254,17 @@ footer p {
 }
 
 h1 a {
-	font-size: 30px;
+	font-size: 1.5rem;
 }
 
 li {
-	font-size: 20px;
+	font-size: 1rem;
 }
 
 footer {
 	display: block;
 	padding: 10px;
-	font-size: 15px;
+	font-size: .75rem;
 	height: 100px;
 }
 

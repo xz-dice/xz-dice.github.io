@@ -4,15 +4,24 @@ import {Route, BrowserRouter as Router} from "react-router-dom";
 import './index.css';
 import About from "./sections/About/About"
 import Home from "./sections/Home";
+import Portfolio from "./sections/Portfolio/Portfolio";
+import NavigationBar from "./sections/NavigationBar";
+import Body from "./sections/Body";
+import Headline from "./sections/Headline/Headline";
 
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
       <Router>
-          <Route exact path="/" component={Home}/>
-          <Route exact path="/about" component={About}/>
-          {/*<Portfolio/>*/}
+      {/*    <Route exact path="/" component={Home}/>*/}
+      {/*    <Route exact path="/about" component={About}/>*/}
+      {/*    <Route exact path="/Portfolio" component={Portfolio}/>*/}
+      <NavigationBar/>
+      <Body/>
+      <Headline/>
+      <About/>
+      <Portfolio/>
       </Router>
   </React.StrictMode>,
   document.getElementById('root')
