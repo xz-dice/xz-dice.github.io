@@ -21,7 +21,7 @@ return (
         <article className="project-two">
             <img src={aptitude} alt="aptitude test landing page"/>
             <a href=" https://github.com/xz-dice/aptitude-test" target="_blank"><h2>Aptitude Test</h2></a>
-            <p>This was a team project to add new frontend features and bug fixes within a legacy project. We used GULP as a taskrunner to compile our TypeScript and used Handlebars for JavaScript templating. As scrum master for this project, I supported team members and communicated with our partner team to ensure there were no conflicts between any stories with dependencies.</p>
+            <p>This was a team project to add new frontend features and bug fixes within a legacy project. We used GULP as a taskrunner to compile our TypeScript and used Handlebars for JavaScript templating. As scrum master for this project, I communicated with our partner team to ensure there were no conflicts between any stories with dependencies and supported my team members through the Sprint Review and Retrospective.</p>
         </article>
         <article className="project-three">
             <img src={fetch} alt="landing page with a cartoon image of a dog"/>
@@ -38,7 +38,7 @@ return (
         <article className="project-five">
             <img src={scrumble} alt="scrumble landing page"/>
             <a href="https://dev.io-academy.uk/projects/2021-march/scrumble/" target="_blank"><h2>Scrumble</h2></a>
-            <p>Scrumble is an anagram game built using vanilla JavaScript, CSS and HTML.
+            <p>Scrumble is an anagram game built using vanilla JavaScript, CSS and HTML. This was the first project our team developed using Scrum and Git for version control.
             </p>
         </article>
         <article className="project-six">

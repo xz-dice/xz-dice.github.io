@@ -8,20 +8,19 @@ import Portfolio from "./sections/Portfolio/Portfolio";
 import NavigationBar from "./sections/NavigationBar";
 import Body from "./sections/Body";
 import Headline from "./sections/Headline/Headline";
+import Contact from "./sections/Contact/Contact";
 
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
       <Router>
-      {/*    <Route exact path="/" component={Home}/>*/}
-      {/*    <Route exact path="/about" component={About}/>*/}
-      {/*    <Route exact path="/Portfolio" component={Portfolio}/>*/}
       <NavigationBar/>
       <Body/>
       <Headline/>
       <About/>
       <Portfolio/>
+            <Contact/>
       </Router>
   </React.StrictMode>,
   document.getElementById('root')
