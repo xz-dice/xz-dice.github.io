@@ -53,7 +53,7 @@ li {
 	font-weight: 700;
 }
 
-.nav-links a:visited {
+.nav-links a {
 	color: #363166;
 }
 
@@ -77,9 +77,9 @@ li {
 	font-size: 1.6rem;
 }
 
-.nav-links a:visited {
-	color: #363166;
-}
+/*.nav-links a:visited {*/
+/*	color: #363166;*/
+/*}*/
 
 /*---------------HEADER/MAIN----------------*/
 
