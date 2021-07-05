@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7176885d.chunk.css",
-    "main.js": "/static/js/main.e668647c.chunk.js",
-    "main.js.map": "/static/js/main.e668647c.chunk.js.map",
+    "main.js": "/static/js/main.86b0506f.chunk.js",
+    "main.js.map": "/static/js/main.86b0506f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.086c2058.js",
     "runtime-main.js.map": "/static/js/runtime-main.086c2058.js.map",
     "static/js/2.6d8c94b8.chunk.js": "/static/js/2.6d8c94b8.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.7176885d.chunk.css.map": "/static/css/main.7176885d.chunk.css.map",
     "static/js/2.6d8c94b8.chunk.js.LICENSE.txt": "/static/js/2.6d8c94b8.chunk.js.LICENSE.txt",
+    "static/media/Xandice Armah - CV 2021.a4acc7ed.pdf": "/static/media/Xandice Armah - CV 2021.a4acc7ed.pdf",
     "static/media/about.867f3ec4.png": "/static/media/about.867f3ec4.png",
     "static/media/aptitude-thumbnail.5446e05a.png": "/static/media/aptitude-thumbnail.5446e05a.png",
     "static/media/bonappetit.4a9b4a5f.png": "/static/media/bonappetit.4a9b4a5f.png",
@@ -24,6 +25,6 @@
     "static/js/runtime-main.086c2058.js",
     "static/js/2.6d8c94b8.chunk.js",
     "static/css/main.7176885d.chunk.css",
-    "static/js/main.e668647c.chunk.js"
+    "static/js/main.86b0506f.chunk.js"
   ]
 }
