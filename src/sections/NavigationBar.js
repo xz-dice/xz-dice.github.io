@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-
+import CV from "./Xandice Armah - CV 2021.pdf"
 const NavigationBar = () => {
 
     return (
@@ -10,11 +10,9 @@ const NavigationBar = () => {
                             <Link to="/">XANDICE ARMAH</Link>
                         </h1>
                     </div>
-                    {/*<div className="nav-links">*/}
-                    {/*    <li><Link to="/about">About</Link></li>*/}
-                    {/*    <li><Link to="/portfolio">Portfolio</Link></li>*/}
-                    {/*    <li><Link to="/contact">Contact</Link></li>*/}
-                    {/*</div>*/}
+                    <div className="nav-links">
+                        <li><a href={CV} target="_blank">Download CV</a></li>
+                    </div>
             </div>
     )
 }

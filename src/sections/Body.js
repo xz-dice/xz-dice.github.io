@@ -6,13 +6,13 @@ import contact from './contact.jpg'
 const Body = () => {
     return (
         <div className="main">
-            <div>
+            <div className="first">
                 <img className='about' alt="" src={about}/>
             </div>
             <div>
                 <img className='portfolio' alt="" src={portfolio}/>
             </div>
-            <div>
+            <div className="third">
                 <img className='contact' alt="" src={contact}/>
             </div>
         </div>

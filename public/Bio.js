@@ -1,6 +1,6 @@
 (function() {
 
-    var word = [' a DJ', ' a creator', ' a model', ' an easy-mode gamer', ' a nerd', ' a troubleshooter', ' a full-stack web developer'];
+    var word = [' a DJ', ' a creator', ' a model', ' an easy-mode gamer', ' a nerd', ' a public speaker', ' a troubleshooter', ' a full-stack web developer'];
     var element = document.getElementsByTagName('span')[0];
     var wordIndex = 1;
 
@@ -55,9 +55,15 @@
             case 6:
                 element.classList.add('flip');
                 element.textContent = word[wordIndex];
-                wordIndex = 0;
+                wordIndex = 7;
                 setTimeout(resetAnimation, 1000);
                 break;
+
+            case 7:
+                element.classList.add('flip');
+                element.textContent = word[wordIndex];
+                wordIndex = 0;
+                setTimeout(resetAnimation, 1000);
 
 
         }
