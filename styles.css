@@ -184,7 +184,7 @@ section article p {
 	font-weight: 400;
 	color: #363166;
 	font-size: .75rem;
-	max-width: 390px;
+	max-width: 400px;
 }
 
 
@@ -260,12 +260,10 @@ footer a:hover{
 @media screen and (max-width: 1000px){
 .row article {
 	width: 50%;
-
-
+}
 	.contact {
 		object-position: 100% -20%;
 	}
-}
 
 h1 a {
 	font-size: 1.5rem;
@@ -287,6 +285,11 @@ footer {
 @media screen and (max-width: 800px) {
 	.row article {
 		width: 100%;
+		display: block;
+	}
+
+	section article p {
+		max-width: 100%;
 	}
 }
 
