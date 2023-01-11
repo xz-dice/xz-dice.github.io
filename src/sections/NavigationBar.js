@@ -11,7 +11,7 @@ const NavigationBar = () => {
                         </h1>
                     </div>
                     <div className="nav-links">
-                        <li><a href={CV} target="_blank">Download CV</a></li>
+                        <li><a href="https://rxresu.me/r/z03MnOG5" target="_blank">Download CV</a></li>
                     </div>
             </div>
     )
